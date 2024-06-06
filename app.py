@@ -4,7 +4,7 @@ from flask_migrate import Migrate
 from flask_swagger_ui import get_swaggerui_blueprint
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://scrapyuser:scrapy_password@localhost/books'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://scrapyuser:scrapy_password@62bfc0f1a903.ebcc4f25.alx-cod.online/books'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
