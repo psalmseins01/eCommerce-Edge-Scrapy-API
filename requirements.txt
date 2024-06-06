@@ -2,4 +2,4 @@ flask
 SQLAlchemy
 gunicorn
 flask_sqlalchemy
-flask-bootrap
+flask-bootsrap
