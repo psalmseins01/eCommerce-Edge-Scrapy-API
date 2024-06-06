@@ -7,6 +7,3 @@ Flask-Bootstrap
 Flask-Migrate
 flask-swagger-ui
 mysqlclient
-python3-dev
-default-libmysqlclient-dev
-build-essential
