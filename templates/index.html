@@ -26,12 +26,15 @@
     .content {
       padding: 50px 15px;
     }
+    .feature-section {
+      padding: 20px 0;
+    }
     .feature {
       text-align: center;
-      margin-bottom: 30px;
       padding: 20px;
       border-radius: 10px;
       color: white;
+      margin-bottom: 20px;
     }
     .feature:nth-child(1) {
       background-color: #1e90ff; /* Dodger Blue */
@@ -49,6 +52,20 @@
     .feature h3 {
       font-size: 1.5em;
       margin-bottom: 15px;
+    }
+    .footer {
+      background-color: #4b0082; /* Matching indigo color */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -72,31 +89,44 @@
     <p>For detailed API documentation, visit <a href="/swagger">Swagger UI</a>.</p>
   </div>
 
-  <div class="content container">
-    <div class="row">
-      <div class="col-md-4 feature">
-        <div class="feature-icon">
-          <i class="fas fa-cogs"></i>
+  <div class="feature-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 feature">
+          <div class="feature-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>Easy Integration</h3>
+          <p>Seamlessly integrate our API into your applications with comprehensive documentation.</p>
         </div>
-        <h3>Easy Integration</h3>
-        <p>Seamlessly integrate our API into your applications with comprehensive documentation.</p>
-      </div>
-      <div class="col-md-4 feature">
-        <div class="feature-icon">
-          <i class="fas fa-shield-alt"></i>
+        <div class="col-md-4 feature">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Secure</h3>
+          <p>Our APIs are built with security in mind, ensuring your data is protected at all times.</p>
         </div>
-        <h3>Secure</h3>
-        <p>Our APIs are built with security in mind, ensuring your data is protected at all times.</p>
-      </div>
-      <div class="col-md-4 feature">
-        <div class="feature-icon">
-          <i class="fas fa-tachometer-alt"></i>
+        <div class="col-md-4 feature">
+          <div class="feature-icon">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
+          <h3>High Performance</h3>
+          <p>Experience fast and reliable performance, handling thousands of requests per second.</p>
         </div>
-        <h3>High Performance</h3>
-        <p>Experience fast and reliable performance, handling thousands of requests per second.</p>
       </div>
     </div>
   </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Connect with us:</p>
+      <a href="https://github.com/psalmseins01" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/anthony-gbobo-1a5b36289/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://x.com/liworg" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <a href="https://www.holbertonschool.com" target="_blank"><i class="fas fa-school"></i> Holberton School</a>
+    </div>
+  </footer>
 
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
