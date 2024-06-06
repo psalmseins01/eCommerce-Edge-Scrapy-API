@@ -1,5 +1,7 @@
+
 flask
 SQLAlchemy
 gunicorn
 flask_sqlalchemy
 Flask-Bootstrap
+Flask-Migrate
