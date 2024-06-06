@@ -7,3 +7,4 @@ Flask-Bootstrap
 Flask-Migrate
 flask-swagger-ui
 mysqlclient
+pymysql
