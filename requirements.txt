@@ -89,4 +89,4 @@ wheel==0.43.0
 zope.interface==6.4
 scrapy
 mysqlclient
-
+gunicorn
