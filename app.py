@@ -5,7 +5,7 @@ from flask_swagger_ui import get_swaggerui_blueprint
 from sqlalchemy.pool import QueuePool
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://scrapyuser:scrapy_password@62bfc0f1a903.ebcc4f25.alx-cod.online/books'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://scrapyuser:scrapy_password@62bfc0f1a903.ebcc4f25.alx-cod.online/books'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
     'poolclass': QueuePool,
